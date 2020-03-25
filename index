@@ -1,0 +1,14 @@
+# 唯一索引
+CREATE UNIQUE INDEX indexName ON mytable(username(length))      //创建
+ALTER table mytable ADD UNIQUE [indexName] (username(length))   //修改
+
+# 主键索引
+
+
+# 普通索引
+CREATE INDEX indexName ON mytable(username(length));   //创建 
+ALTER table tableName ADD INDEX indexName(columnName)  //修改
+DROP INDEX [indexName] ON mytable;                     //删除
+
+
+# 全文索引
