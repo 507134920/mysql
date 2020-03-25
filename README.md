@@ -1,2 +1,2 @@
 # mysql
-mysq了相关知识
+mysq相关知识
